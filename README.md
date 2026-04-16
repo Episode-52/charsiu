@@ -19,7 +19,7 @@ The aligner is under active development. New functions, new languages and detail
 
 This project requires the TIMIT dataset for training. Due to open-source license restrictions, the dataset cannot be included directly in this repository. Please download and extract the dataset to the project's root directory to get started. 
 
-You can obtain the official version from [LDC93S1](https://catalog.ldc.upenn.edu/LDC93S1) (purchase required), or alternatively, you can (download it [here](https://drive.google.com/file/d/1iDFg8e_NNVyXNnFp2TYRiuJq3foWK7WA/view?usp=drive_link)).
+You can obtain the official version from [LDC93S1](https://catalog.ldc.upenn.edu/LDC93S1) (purchase required), or alternatively, you can download it [here](https://drive.google.com/file/d/1iDFg8e_NNVyXNnFp2TYRiuJq3foWK7WA/view?usp=drive_link).
 
 ### Table of content
 - [Tutorial](README.md#Tutorial)  
