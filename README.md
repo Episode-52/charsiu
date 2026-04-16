@@ -45,7 +45,7 @@ You can directly run our model in the cloud via Google Colab!
 
 ### Usage
 ```
-git clone  https://github.com/lingjzhu/charsiu
+git clone  https://github.com/Episode-52/charsiu
 cd charsiu
 ```
 #### Forced alignment
