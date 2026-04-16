@@ -1,6 +1,7 @@
 ## Charsiu: A transformer-based phonetic aligner [[arXiv]](https://arxiv.org/abs/2110.03876)
 
 ### Updates
+- 4.16.2026. I added a `requirements.txt` to simplify environment configuration, it includes accurate version of all the package, as the original conda setup has become outdated. This has been tested and works smoothly in Python 3.9.
 - 2.10.2022. We release phone- and word-level alignments for 860k utterances from the English subset of Common Voice. Check out [this link](misc/data.md#alignments-for-english-datasets).  
 - 1.31.2022. We release phone- and word-level alignments for over a million Mandarin utterances. Check out [this link](misc/data.md#alignments-for-mandarin-speech-datasets).  
 - 1.26.2022. Word alignment functionality has been added to `charsiu_forced_aligner` .
@@ -14,7 +15,11 @@
 The aligner is under active development. New functions, new languages and detailed documentation will be added soon! Give us a star if you like our project!  
 **Fun fact**: Char Siu is one of the most representative dishes of Cantonese cuisine 🍲 (see [wiki](https://en.wikipedia.org/wiki/Char_siu)). 
 
+### Dataset
 
+This project requires the TIMIT dataset for training. Due to open-source license restrictions, the dataset cannot be included directly in this repository. Please download and extract the dataset to the project's root directory to get started. 
+
+You can obtain the official version from [LDC93S1](https://catalog.ldc.upenn.edu/LDC93S1) (purchase required), or alternatively, you can (download it [here](https://drive.google.com/file/d/1iDFg8e_NNVyXNnFp2TYRiuJq3foWK7WA/view?usp=drive_link)).
 
 ### Table of content
 - [Tutorial](README.md#Tutorial)  
@@ -135,7 +140,7 @@ librosa
 g2pe  
 praatio  
 g2pM
-
+nltk
 
 ### Training
 The training pipeline is coming soon!
@@ -193,6 +198,7 @@ All that said, thanks for using our tool, and we hope it works wonderfully for y
 ### Support or Contact
 Please contact Jian Zhu ([lingjzhu@umich.edu](lingjzhu@umich.edu)) for technical support.  
 Contact Cong Zhang ([cong.zhang@ru.nl](cong.zhang@ru.nl)) if you would like to receive more instructions on how to use the package.
+Contant Wang Ze ([wangze6399@gmail.com](wangze6399@gmail.com)) if you need help configuring the environment for this older project.
 
 
 
