@@ -13,6 +13,7 @@
 - directly predict the phone-to-audio alignment from audio (text-independent alignment)  
 
 The aligner is under active development. New functions, new languages and detailed documentation will be added soon! Give us a star if you like our project!  
+
 **Cross-Platform Support**: The project is tested and fully functional on Windows, macOS, and Linux environments.
 
 **Fun fact**: Char Siu is one of the most representative dishes of Cantonese cuisine 🍲 (see [wiki](https://en.wikipedia.org/wiki/Char_siu)). 
